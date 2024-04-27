@@ -1,7 +1,7 @@
 const db = require('../configs/db');
 
 const getData = (req, res) => {
-    const sql = 'SELECT * FROM actnivities';
+    const sql = 'SELECT * FROM activities';
     db.query(sql, (err, result) => {
         if (err) {
             res.status(500).json({ error: err.message });
