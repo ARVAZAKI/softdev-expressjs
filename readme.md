@@ -5,6 +5,7 @@ menggunakan database mysql
 
 Untuk mengambil data dengan method GET
 http://localhost:4000/
+
 response :
 ```
 {
@@ -24,6 +25,7 @@ key yang diperlukan :
 ```
 activity : value
 ```
+
 response :
 ```
 {
@@ -38,6 +40,7 @@ key yang diperlukan :
 ```
 activity : value
 ```
+
 response :
 ```
 {
