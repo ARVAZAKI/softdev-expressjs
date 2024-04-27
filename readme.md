@@ -49,7 +49,7 @@ response :
 ```
 
 untuk menghapus data dengan method DELETE
-http://localhost:4000/edit/:id
+http://localhost:4000/delete/:id
 
 response :
 ```
